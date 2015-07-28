@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/cover"
+    android:layout_height="match_parent"
+    tools:context="com.example.ahmed.stpblog.SummaryFragment">
+
+    <ScrollView
+        android:id="@+id/scrollVie_summary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context="com.example.ahmed.stpblog.SummaryFragment">
+
+
+        <ImageView
+            android:id="@+id/summary_image_1"
+            android:layout_width="450dp"
+            android:layout_height="300dp"
+            android:src="@drawable/indomie" />
+
+        <TextView
+            android:id="@+id/title_summary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/summary_image_1"
+            android:gravity="center"
+            android:text="" />
+
+
+        <TextView
+            android:id="@+id/summary_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title_summary"
+            />
+
+
+        <Button
+            android:id="@+id/go_2_article"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:background="#ff7a171a"
+            android:text="readMore"
+            android:textColor="#fffaf7c1"
+            android:textSize="30sp" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

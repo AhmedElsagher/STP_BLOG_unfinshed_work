@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ahmed.stpblog.ArticleFragment">
+
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:id="@+id/scrollArticle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context="com.example.ahmed.stpblog.ArticleFragment">
+
+        <ImageView
+
+            android:id="@+id/article_img"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/indomie" />
+
+        <!--android:layout_below="@+id/article1"-->
+            <TextView
+                android:id="@+id/article_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/article_img"
+                android:background="#ff7a171a"
+
+                 android:textColor="#fffaf7c1" />
+
+        <TextView
+            android:id="@+id/article_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/article_title"
+            android:background="#ff7a171a"
+
+
+            android:textColor="#fffaf7c1" />
+        </RelativeLayout>
+    </ScrollView>
+    <!--todo:the final of each page
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/scrollArticle"></LinearLayout>-->
+</RelativeLayout>
