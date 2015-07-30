@@ -1,10 +1,22 @@
 <resources>
     <string name="app_name">STPBlog</string>
 
-    <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
 
-      <string name="title_activity_summary_article">SummaryArticle</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_summary_article">SummaryArticle</string>
+    <string name="title_activity_grid">gridArticle</string>
+    <string-array name="image_url_array">
+        <item>http://stp-egypt.com/Blog/wp-content/uploads/2015/03/love-between1.jpg</item>
+        <item>http://stp-egypt.com/Blog/wp-content/uploads/2015/03/%D8%A7%D9%84%D8%AD%D8%B1%D9%88%D9%81-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9.jpg</item>
+        <item>http://stp-egypt.com/Blog/wp-content/uploads/2015/03/morals.jpg</item>
+        <item>http://stp-egypt.com/Blog/wp-content/uploads/2015/03/love-between1.jpg</item>
+        <item>http://stp-egypt.com/Blog/wp-content/uploads/2015/03/11037-outdoor-advertising-1.jpg</item>
+        <item>http://stp-egypt.com/Blog/wp-content/uploads/2015/03/url.jpeg</item>
+        <item>http://stp-egypt.com/Blog/wp-content/uploads/2015/03/let-go.jpg</item>
+        <item>http://stp-egypt.com/Blog/wp-content/uploads/2015/03/7.jpg</item>
+        <item>http://stp-egypt.com/Blog/wp-content/uploads/2014/12/11089057_920173758032858_1494404664_o.png</item>
+        <item>http://stp-egypt.com/Blog/wp-content/uploads/2014/12/horoob-ila-wahm.jpg</item>
+    </string-array>
     <string-array name="titles_array">
         <item>غريب قريب</item>
         <item>مشكلة لغتنم</item>
@@ -154,4 +166,5 @@ Philosophy despite other sciences enables us to think out of the box, wondering 
         <item>أستيقظ من النوم ليجد الحلم تحقق … قيوده قد فُكت … قيود التحكم و الأوامر حُلت … سجن الصواب و الخطأ … الحلال و الحرام … أختفى ! … لقد فعلها … أستطاع الهرب … قفز من فوق سور التحكمات .
 إنها السعادة … السعادة غير المشروطة … بدون أفعل أو لا تفعل … و من دون أن يسعى نحوها … يستغرق الأمر ثواني تعد على أصابع اليد … مجرد لحظات عابرة من الزمن … لينتقل إلى عالم السعادة … عالم بدون قيود … </item>
     </string-array>
-</resources>
+
+  </resources>
